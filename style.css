@@ -1,0 +1,49 @@
+body{
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+h1 {
+    color: rgb(137, 86, 179);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    font-style: bold;
+    color: rgb(82, 30, 104);
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+dl {
+    margin-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+dt {
+    color: turquoise;
+    font-weight: bold;
+}
+
+ul li{
+    list-style-type: square;
+    background: rgb(58, 13, 58);
+    color: rgb(161, 104, 187);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
